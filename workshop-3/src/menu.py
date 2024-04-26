@@ -168,7 +168,9 @@ while opcion1 != 3:
                 new_catalog.get_all_vehicles()
                 new_processor.add_to_log(new_processor.vehicle_search())
             elif opcion3 == 3:
-                pass
-            elif opcion3 == 4:
                 new_processor.add_to_log(new_processor.exit())
                 opcion1 = 0
+    else:
+        print("Invalid option.")
+        print("\n\n" + MESSAGE_1)
+        option = int(input("Please, choise an option: "))        
