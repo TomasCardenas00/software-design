@@ -14,7 +14,7 @@ you need to calculate the gas consumption due to regulations of both USA and Eur
 they need: Helicopter, Scooter.
 - All engines must have next attributes: stability, power, weight, dimensions, torque,
 and maximum speed.
-- There are 3 types of engines: 
+- There are 3 types of engines: _Gas Engine_, _Electric Engine_ and _Hybrid Engine_, each of these 3 engines has 2 variations: _Expensive_ and _Cheap_
 
 ## Business Rules
 
